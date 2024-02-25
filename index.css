@@ -108,7 +108,8 @@ form button {
 }
 /* estilos pie de pagina */
 footer {
-    background-color: #333;
+    font-weight: bold;
+    background-color: #970808;
     color: white;
     text-align: center;
     padding: 10px;
