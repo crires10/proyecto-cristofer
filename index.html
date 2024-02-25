@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerolínea Cristofer</title>
+    <!-- Se llama los estilos de index.css -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <!-- Cabecera -->
+    <header>
+        <h1>Aerolínea </h1>
+        <p>Desarrollado por Cristofer Restrepo</p>
+    </header>
+    <!-- Menú -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Reservas</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="https://github.com/crires10/pryecto-cristofer">Enlace GITHUB</a></li>
+        </ul>
+    </nav>
+
+    <!-- Formulario -->
+    <main id="miFormularioVuelo">
+        <!-- Tarjeta de Vuelo 1 -->
+        <div class="flight-card">
+            <img src="https://cdn.britannica.com/66/139866-050-7F8A5FC6/Manizales-Colom.jpg" alt="Vuelo a Destino 1">
+            <div class="flight-details">
+                <h2>Manizales 1</h2>
+                <p>Fecha: 28 de febreo de 2024</p>
+                <p>Duración: 1 horas</p>
+                <p>Precio: $150.000</p>
+            </div>
+        </div>
+
+        <!-- Tarjeta de Vuelo 2 -->
+        <div class="flight-card">
+            <img src="https://forbes.co/_next/image?url=https%3A%2F%2Fcdn.forbes.co%2F2020%2F09%2FMedell%C3%ADn-foto-ProColombia.jpg%3Fv%3D20471365&w=3840&q=75" alt="Vuelo a Destino 2">
+            <div class="flight-details">
+                <h2>Medellin 1</h2>
+                <p>Fecha: 29 de febreo de 2024</p>
+                <p>Duración: 2 horas</p>
+                <p>Precio: $250.000</p>
+            </div>
+        </div>
+
+        <!-- Formulario de Reserva -->
+        <form>
+            <div class="style-buttons">
+                <button onclick="cambiarEstiloFondo()">Cambiar Fondo</button>
+                <button onclick="cambiarEstiloTexto()">Cambiar Texto</button>
+                <button onclick="restaurarEstilos()">Restaurar Estilos</button>
+            </div>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="destino">Destino:</label>
+            <select id="destino" name="destino">
+                <option value="destino1">Manizales 1</option>
+                <option value="destino2">Medellín 2</option>
+            </select>
+
+            <label for="fecha">Fecha de Viaje:</label>
+            <input type="date" id="fecha" name="fecha">
+
+            <button onclick="reservarVuelo()">Reservar Vuelo</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aerolínea Cristofer. Todos los derechos reservados.</p>
+    </footer>
+   <!--  Se llaman el javascrip -->
+    <script src="index.js"></script>
+
+</body>
+</html>
+echo "# proyecto-cristofer" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/crires10/proyecto-cristofer.git
+git push -u origin main
