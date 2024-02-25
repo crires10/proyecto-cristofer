@@ -59,14 +59,24 @@
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre">
 
-            <label for="destino">Destino:</label>
-            <select id="destino" name="destino">
-                <option value="destino1">Manizales 1</option>
-                <option value="destino2">Medellín 2</option>
+            <label for="Origen">Origen:</label>
+            <select id="Origen" name="Origen">
+                <option value="Origen">Manizales</option>
+                <option value="Origen2">Medellín</option>
+                <option value="Origen3">Bogota</option>
             </select>
 
-            <label for="fecha">Fecha de Viaje:</label>
-            <input type="date" id="fecha" name="fecha">
+            <label for="destino">Destino:</label>
+            <select id="destino" name="destino">
+                <option value="destino1">Manizales</option>
+                <option value="destino2">Medellín</option>
+		        <option value="destino3">Bogota</option>
+            </select>
+
+            <label for="fecha ida">Fecha de Ida:</label>
+            <input type="date" id="fecha ida" name="fecha ida">
+            <label for="fecha regreso">Fecha regreso:</label>
+            <input type="date" id="fecha regreso" name="fecha regreso">
 
             <button onclick="reservarVuelo()">Reservar Vuelo</button>
         </form>
