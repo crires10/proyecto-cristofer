@@ -125,7 +125,8 @@ footer {
 
 .style-buttons button {
     padding: 8px;
-    background-color: #333;
+    font-weight: bold;
+    background-color: #bb5bbe;
     color: white;
     border: none;
     border-radius: 4px;
