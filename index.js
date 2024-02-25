@@ -23,10 +23,3 @@ function restaurarEstilos() {
 function reservarVuelo(){
     alert("Se ha realizado la reserva correctamente!!")
 }
-echo "# proyecto-cristofer" >> README.md
-git init
-git add README.md
-git commit - m "first commit"
-git branch - M main
-git remote add origin https://github.com/crires10/proyecto-cristofer.git
-git push - u origin main
